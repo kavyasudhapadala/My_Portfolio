@@ -1296,3 +1296,7 @@ section:hover::before {
         grid-template-columns: 1fr;
     }
 }
+.contact-details a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the color of the parent element */
+}
